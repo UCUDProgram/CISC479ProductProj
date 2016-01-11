@@ -1,0 +1,354 @@
+    body{background-color:black;}
+            
+            p{
+                color:white;
+                
+            }
+            
+            .bord{
+                line-height:1em;
+                border-bottom: 1px solid;
+                border-bottom-color:gray;
+                margin:.25px;
+                /*display:inline;*/
+            }
+            
+            #simple{
+                width:100px;
+            }
+            
+            #simpleLong{
+                width:150px;
+            }
+            
+            #box1{
+                height:2em;
+                width:100px;
+                /*padding-bottom:.5px;*/
+                position:relative;
+                /*top:10px;*/
+                padding-left:1em;
+                text-align:left;
+                padding-bottom:em;
+            }
+            
+            #box2{
+                width:100px;
+                padding:3px;
+                position:relative;
+                top:10px;
+                text-align:left;
+                padding-Left:2em;
+            }
+            
+            #box3{
+                width:130px;
+                padding:4px;
+                position:relative;
+                top:20px;
+                text-align:left;
+                padding-left:2em;
+                /*padding-right:-em;*/
+                padding-bottom:.5em;
+            }
+            
+            #walletblock{
+                display:inline-block;
+                /*height:00px;*/
+                width:300px;
+                position:relative;
+                right:30px;
+                align:center;
+                /*bottom:200px;*/
+            }
+            
+            #walletblock img{
+                height:550px;
+                width:500px;
+                align:center;
+            }
+            
+            
+            .batteryblock{
+                display:inline-block;
+            }
+            
+            .battery{
+                display:inline-block;
+            }
+            
+            .battery img{
+                width:50px;
+                height:50px;
+            }
+            
+            .lightcable{
+                display:inline-block;
+            }
+            
+            .lightcable img{
+                width:50px;
+                height:50px;
+            }
+            
+            .en-walldesc{
+                display:inline;
+                font-size:1.25em;
+                text-align:right;
+                /*Gainsboro Color*/
+                color:RGB(220,220,220);
+            }
+            
+            .fr-walldesc{
+                display:inline;
+                font-size:.8em;
+                color:#b8b8b8;
+            }
+            .win1{
+                width:100px;
+                display:inline;
+            }
+            
+            .win2{
+                width=75px;
+                display:inline-block;
+                padding-right:1em;
+            }
+            
+            .win3{
+                width=30px;
+                display:inline-block;
+                padding-left:1em;
+            }
+            .alright{
+                text-align:right;
+                padding-right:10px;
+                top:15px;
+                /*left:10px;*/
+            }
+            
+            .left{
+                float:left;
+            }
+            
+            .right{
+                float:right;
+            }
+            
+            .fr-col{
+                color:silver;
+                display:inline;
+            }
+            
+            .fr-box3text{
+                font-size:.75em;
+                color:silver:
+                display:inline;
+            }
+            
+            .fr-sub{
+                color:silver;
+                display:inline;
+                font-size:.75em;
+            }
+            
+            .fr-batttxt{
+                font-size:.8em;
+                color:silver;
+                display:inline;
+            }
+            
+            .fr-cabletxt{
+                font-size:.75em;
+                color:silver;
+                display:inline;
+            }
+            
+            .fr-subtext{
+                color:silver;
+                display:inline;
+                font-size:.80em;
+            }
+            
+            .alignment{
+                display:inline-block;
+            }
+            
+            
+            .grouped{
+                display:block;
+            }
+            
+            
+            .columns{
+                display:inline;
+                /*width:200px;*/
+                /*height:100px;*/
+            }
+            
+            .infoblock{
+                display:inline-block;
+                width:200px;
+                height:550px;
+            }
+            
+            .lightarea{
+                display:block;
+                position:relative;
+                top:10px;
+                bottom:10px;
+            }
+            
+            .blockright{
+                align:right;
+            }
+            
+            .sepblock{
+                display:inline-block;
+                width:.15em;
+                background-color:silver;
+                height:2em;
+            }
+            
+            .logotext{
+                display:inline-block;
+            }
+            
+            .batteryinfo{
+                display:inline-block;
+                position:relative;
+                bottom:10px;
+                margin:.5em;
+                /*padding-bottom:10px;*/
+            }
+            
+            .lightninginfo{
+                display:inline-block;
+                position:relative;
+                bottom:10px;
+                margin:.5em;
+            }
+            
+            
+            .batteryarea{
+                display:block;
+                position:relative;
+                top:5px;
+                bottom:5px;
+            }   
+            
+            .logo{
+                display:inline-block;
+                width:75px;
+                height:25px;
+                background-color:green;
+            }
+            .adj {
+                margin: 1em;
+            }
+            
+            .aligned{
+                display:inline;
+            }
+            .blocked{
+                display:block;
+            }
+            
+            .merged{
+                display:inline;
+            }
+            
+            .walletdescrip{
+                width:220px;
+            }
+            .walletpointer{
+                display:inline;
+                background:white;
+                background: linear-gradient(-150deg, transparent 1.5em, black 0);
+            }
+            
+            .colchng{
+                 display:inline;
+                 color:green;
+                 font-size:225%;
+                 height:2em;
+            }
+            
+            .en-title {
+                font-family: sans;
+                display: inline;
+                font-weight: bold;
+                width:120px;
+            }
+            
+            .fr-title {
+                font-style: italic;
+                display: inline;
+                color: #b8b8b8;
+                /*border-bottom: 1px solid;*/
+                /*border-bottom-color:gray;*/
+                /*border-bottom-length:100px;*/
+            }
+            /*Change color of text to a color between white & gray*/
+            .en-body{
+                font-size:12px;
+                display:inline;
+            }
+            
+            .fr-body{
+                font-style:italic;
+                font-family:serif;
+                display:inline;
+                color:#B8B8B8;
+                font-size:smaller;
+            }
+           
+           .coltext1{
+            background-color:darkSeaGreen;
+          /* Medium Spring Green*/
+          padding-right:10px;
+          /*bottom:;*/
+          /*padding-bottom:px;*/
+           }
+           
+           .coltext2{
+               background-color:DarkGreen;
+               text-align:center;
+           }
+           
+           .coltext3{
+               /*Medium Sea Green */
+               background-color:DarkOliveGreen;
+               text-align:center;
+               /*padding-left:20px;*/
+               /*padding-top:200px;*/
+           }
+            
+            
+            /*.left {*/
+            /*    float:left;*/
+            /*}*/
+            
+            /* box model basics */ 
+            div {
+                text-align:left;
+                /*line-height:.5;*/
+                /*background-color: #aaa;*/
+                /*display: block;*/
+                /*outline: 5px dashed white;*/
+                /*margin: 50px;*/
+                /*border: 30px solid hsla(2000,100%,50%, .4);*/
+                /*padding: 10px;*/
+                /*background-clip: padding-box;*/
+            }
+            .group{
+                /*text-align:right;*/
+                /*display:block;*/
+                width:200px;
+                display:inline;
+            }
+            
+            
+            #company_logo {
+                color: blue;
+            }
